@@ -1,28 +1,28 @@
 class AichatSearch < Formula
   desc "Fast TUI for searching Claude Code and Codex sessions"
   homepage "https://github.com/pchalasani/claude-code-tools"
-  version "0.1.27"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.1.27/aichat-search-macos-arm64.tar.gz"
-      sha256 "ced8091f90246535119fce98e8063de14e7958dceaa4501370802c00a8fbc9a5"
+      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.2.0/aichat-search-macos-arm64.tar.gz"
+      sha256 "9cfac99c87019f18a33181e5e9dc9ebff3a441556806cc0814a5eed88e45248b"
     end
     on_intel do
-      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.1.27/aichat-search-macos-intel.tar.gz"
-      sha256 "3ff5113d73054ed975e8100bd02aac6c62d898033d82291400d00e2df0d62387"
+      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.2.0/aichat-search-macos-intel.tar.gz"
+      sha256 "75d66214ba27ac2e67a2809e8ed9e1bc800f14ea1ca00a1e9a99da1cc20c64d9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.1.27/aichat-search-linux-arm64.tar.gz"
-      sha256 "e406324e6447f1a07013025f28fcfb5580ea5d7a0123b59f1f03729d92a028e4"
+      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.2.0/aichat-search-linux-arm64.tar.gz"
+      sha256 "f35db3fe654bd847644400f9c303affd0cc712d6221e22bbd8f0798d2e0a800b"
     end
     on_intel do
-      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.1.27/aichat-search-linux-x86_64.tar.gz"
-      sha256 "c3bf9c945b6924099025d3701b2935207f818e72b114945804eaba7f1052775e"
+      url "https://github.com/pchalasani/claude-code-tools/releases/download/rust-v0.2.0/aichat-search-linux-x86_64.tar.gz"
+      sha256 "6a936424be645a281febe75de6841cd183c99854d2dcbaf03f725a3168c2aa22"
     end
   end
 
